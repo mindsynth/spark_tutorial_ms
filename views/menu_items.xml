@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- This Menu Item will appear in the Upper bar, That's why It needs NO parent or action -->
+    <menuitem id="student_menu_root" name="Student Management" sequence="1"/>
+
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem id="student_personal_info_menu" name="Student Info" parent="student_menu_root" action="spark_tutorial_ms.student_info_action" sequence="1"/>
+</odoo>
